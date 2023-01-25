@@ -1,0 +1,3 @@
+selenium
+win32clipboard
+colorama

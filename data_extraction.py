@@ -33,7 +33,7 @@ def save():
 options = Options()
 # options.headless = True
 options.add_argument('--headless=new')
-
+options.add_experimental_option("excludeSwitches", ["enable-logging"])
 browser = webdriver.Chrome(options=options)
 print(Fore.YELLOW)
 browser.get('https://www.imagetotext.info/')
